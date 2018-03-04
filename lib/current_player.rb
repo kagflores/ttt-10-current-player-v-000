@@ -2,7 +2,7 @@
 def turn_count (board)
   counter = 1
   #counter = board.count( "O" ) + board.count( "X" )
-  board.each do |table|
+  board.each do |turn|
     if turn == "X" || turn == "O"
     counter += 1
     puts "#{counter}"
