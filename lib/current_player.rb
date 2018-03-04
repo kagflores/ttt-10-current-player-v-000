@@ -1,6 +1,6 @@
 #board = ["O", " ", " ", " ", "X", " ", " ", " ", "X"]
 def turn_count (board)
-  counter = 1
+  counter = 0
   #counter = board.count( "O" ) + board.count( "X" )
   board.each do |turn|
     if turn == "O" || turn == "X"
