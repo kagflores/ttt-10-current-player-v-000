@@ -3,8 +3,9 @@ def turn_count (board)
   counter = 1
   #counter = board.count( "O" ) + board.count( "X" )
   board.each do |table|
-    if table == "X"
+    if turn == "X" || turn == "O"
     counter += 1
+    puts "#{counter}"
   #elsif table == "O"
     #counter += 1
   #else
